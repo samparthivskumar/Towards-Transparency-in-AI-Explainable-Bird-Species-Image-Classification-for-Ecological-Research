@@ -42,7 +42,12 @@ Dependencies for Matlallb
 4. Parallel Computing Toolbox (optional): If you intend to run computations in parallel for improved performance.
 
 5. MATLAB Coder (optional): Required if you wish to generate C/C++ code from your MATLAB code.
-
+   
+**Instructions for Training and Evaluating a Deep Learning Model**
+**Step 1: Prepare Your Dataset**
+1.Load the Dataset:
+-Ensure your dataset is organized (e.g., images in folders based on their classes).
+-Load the dataset into MATLAB 
 
 
 
