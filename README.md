@@ -69,30 +69,41 @@ Dependencies for Matlallb
 4. Train the Model:
 
 - Start the training process using your training data and the defined training options. Monitor the training progress and validation performance to ensure that the model is learning appropriately.
+  
 **Step 3: Evaluate Model Accuracy**
-Predict on Validation Set:
+1. Predict on Validation Set:
 
-Once the model is trained, use it to predict classes for the images in the validation set. This will give you the model's output labels for the validation data.
-Calculate Accuracy:
+- Once the model is trained, use it to predict classes for the images in the validation set. This will give you the model's output labels for the validation data.
+  
+2. Calculate Accuracy:
 
-Compare the predicted labels to the actual labels from the validation set. Calculate the accuracy by determining the percentage of correct predictions relative to the total number of predictions made.
-Step 4: Evaluate Feature Relevance Using LIME
-Install and Load LIME Library:
+- Compare the predicted labels to the actual labels from the validation set. Calculate the accuracy by determining the percentage of correct predictions relative to the total number of predictions made.
+  
+**Step 4: Evaluate Feature Relevance Using LIME**
 
-Make sure that the LIME library is set up and accessible in your MATLAB environment. This library is used for generating interpretable explanations of model predictions.
-Generate LIME Explanations:
+1. Install and Load LIME Library:
 
-Select a specific image from the validation set to analyze. Use LIME to generate an explanation for the model's prediction on this image. This will provide insights into which features of the image the model relied on to make its prediction.
-Visualize LIME Explanation:
+- Make sure that the LIME library is set up and accessible in your MATLAB environment. This library is used for generating interpretable explanations of model predictions.
+  
+2. Generate LIME Explanations:
 
-Create a visualization of the LIME explanation, overlaying the important features identified by LIME onto the original image. This helps in understanding how the model interprets the input data.
-Step 5: Calculate IoU Score
-Define Ground Truth Regions:
+- Select a specific image from the validation set to analyze. Use LIME to generate an explanation for the model's prediction on this image. This will provide insights into which features of the image the model relied on to make its prediction.
+  
+3. Visualize LIME Explanation:
 
-Specify the ground truth mask or bounding box for the selected image. This is the reference against which you will compare the model's predictions.
-Calculate IoU:
+- Create a visualization of the LIME explanation, overlaying the important features identified by LIME onto the original image. This helps in understanding how the model interprets the input data.
+  
+**Step 5: Calculate IoU Score**
 
-Use the predicted mask generated from the LIME explanation and compare it to the ground truth mask. The IoU score is calculated as the area of intersection between the predicted mask and the ground truth mask divided by the area of their union. This metric helps assess how accurately the model's explanation aligns with the actual important features in the image.
-Step 6: Save the Model (Optional)
-Save the Trained Model:
-After training and evaluation, save the trained model for future use. This allows you to reuse the model without needing to retrain it.
+1. Define Ground Truth Regions:
+
+- Specify the ground truth mask or bounding box for the selected image. This is the reference against which you will compare the model's predictions.
+  
+2. Calculate IoU:
+
+- Use the predicted mask generated from the LIME explanation and compare it to the ground truth mask. The IoU score is calculated as the area of intersection between the predicted mask and the ground truth mask divided by the area of their union. This metric helps assess how accurately the model's explanation aligns with the actual important features in the image.
+  
+**Step 6: Save the Model (Optional)**
+
+1. Save the Trained Model:
+- After training and evaluation, save the trained model for future use. This allows you to reuse the model without needing to retrain it.
