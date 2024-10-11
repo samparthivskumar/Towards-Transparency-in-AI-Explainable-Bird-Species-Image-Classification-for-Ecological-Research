@@ -46,20 +46,49 @@ Dependencies for Matlallb
 4. **Instructions for Training and Evaluating a Deep Learning Model**
 
 **Step 1: Prepare Your Dataset**
-
 1. Load the Dataset:
 
-   - Ensure your dataset is organized (e.g., images in folders based on their classes).
-   - Load the dataset into MATLAB 
-
+- Ensure that your dataset is organized, with images placed in separate folders according to their respective classes. Each folder name should correspond to the class label of the images it contains.
 2. Split the Dataset:
 
-   - Divide your dataset into training and validation sets
-
-**Step 2: Define the Deep Learning Model**
+- Divide the dataset into training and validation sets. A common approach is to use 80% of the data for training and 20% for validation. Randomly shuffle the dataset to ensure a good mix of classes in both sets.
+**Step 2: Define and Train the Deep Learning Model**
 1. Choose a Pretrained Model:
 
-   - Select a suitable pretrained model from the available options (e.g., ResNet, EfficientNet).
-   - Load the model, modifying the final layers for your classification task
-2.  Set Training Options:
-     - Define training options (e.g., learning rate, batch size)
+- Select a pretrained model suitable for your classification task, such as EfficientNet, ResNet, or Inception. These models have been trained on large datasets and can be fine-tuned for specific tasks.
+Modify the Model:
+
+Adjust the final layers of the pretrained model to fit the number of classes in your dataset. This typically involves replacing the last fully connected layer with a new layer that matches the number of classes in your training set, followed by a classification layer.
+Set Training Options:
+
+Define the training options, including the optimization algorithm (e.g., Adam), mini-batch size, maximum number of epochs, initial learning rate, and validation data. These parameters help control the training process and ensure the model learns effectively.
+Train the Model:
+
+Start the training process using your training data and the defined training options. Monitor the training progress and validation performance to ensure that the model is learning appropriately.
+Step 3: Evaluate Model Accuracy
+Predict on Validation Set:
+
+Once the model is trained, use it to predict classes for the images in the validation set. This will give you the model's output labels for the validation data.
+Calculate Accuracy:
+
+Compare the predicted labels to the actual labels from the validation set. Calculate the accuracy by determining the percentage of correct predictions relative to the total number of predictions made.
+Step 4: Evaluate Feature Relevance Using LIME
+Install and Load LIME Library:
+
+Make sure that the LIME library is set up and accessible in your MATLAB environment. This library is used for generating interpretable explanations of model predictions.
+Generate LIME Explanations:
+
+Select a specific image from the validation set to analyze. Use LIME to generate an explanation for the model's prediction on this image. This will provide insights into which features of the image the model relied on to make its prediction.
+Visualize LIME Explanation:
+
+Create a visualization of the LIME explanation, overlaying the important features identified by LIME onto the original image. This helps in understanding how the model interprets the input data.
+Step 5: Calculate IoU Score
+Define Ground Truth Regions:
+
+Specify the ground truth mask or bounding box for the selected image. This is the reference against which you will compare the model's predictions.
+Calculate IoU:
+
+Use the predicted mask generated from the LIME explanation and compare it to the ground truth mask. The IoU score is calculated as the area of intersection between the predicted mask and the ground truth mask divided by the area of their union. This metric helps assess how accurately the model's explanation aligns with the actual important features in the image.
+Step 6: Save the Model (Optional)
+Save the Trained Model:
+After training and evaluation, save the trained model for future use. This allows you to reuse the model without needing to retrain it.
