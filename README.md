@@ -57,16 +57,19 @@ Dependencies for Matlallb
 1. Choose a Pretrained Model:
 
 - Select a pretrained model suitable for your classification task, such as EfficientNet, ResNet, or Inception. These models have been trained on large datasets and can be fine-tuned for specific tasks.
-Modify the Model:
+  
+3. Modify the Model:
 
-Adjust the final layers of the pretrained model to fit the number of classes in your dataset. This typically involves replacing the last fully connected layer with a new layer that matches the number of classes in your training set, followed by a classification layer.
-Set Training Options:
+- Adjust the final layers of the pretrained model to fit the number of classes in your dataset. This typically involves replacing the last fully connected layer with a new layer that matches the number of classes in your training set, followed by a classification layer.
+  
+3. Set Training Options:
 
-Define the training options, including the optimization algorithm (e.g., Adam), mini-batch size, maximum number of epochs, initial learning rate, and validation data. These parameters help control the training process and ensure the model learns effectively.
-Train the Model:
+- Define the training options, including the optimization algorithm (e.g., Adam), mini-batch size, maximum number of epochs, initial learning rate, and validation data. These parameters help control the training process and ensure the model learns effectively.
+  
+4. Train the Model:
 
-Start the training process using your training data and the defined training options. Monitor the training progress and validation performance to ensure that the model is learning appropriately.
-Step 3: Evaluate Model Accuracy
+- Start the training process using your training data and the defined training options. Monitor the training progress and validation performance to ensure that the model is learning appropriately.
+**Step 3: Evaluate Model Accuracy**
 Predict on Validation Set:
 
 Once the model is trained, use it to predict classes for the images in the validation set. This will give you the model's output labels for the validation data.
