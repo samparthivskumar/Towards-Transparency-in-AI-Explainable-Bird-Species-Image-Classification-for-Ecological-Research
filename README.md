@@ -13,7 +13,7 @@ Our study introduces a quantitative approach to evaluating XAI models. This invo
 
 **Purpose**
 
-We developed MATLAB functions to create a quantitative evaluation framework for Explainable AI (XAI) methods, focusing on the classification performance and interpretability of deep learning models. This framework measures model accuracy, evaluates feature relevance using LIME, and calculates IoU scores for visual explanations. Designed for ease of use, the toolbox allows researchers to assess model transparency without extensive coding knowledge. It includes customizable metrics, automated analysis, and comprehensive tutorials to ensure consistent, scalable, and reproducible results for reliable XAI assessments in various applications.
+We developed MATLAB functions to create a quantitative evaluation framework for XAI methods, focusing on the classification performance and interpretability of deep learning models. This framework measures model accuracy, evaluates feature relevance using LIME, and calculates IoU scores for visual explanations. Designed for ease of use, the toolbox allows researchers to assess model transparency without extensive coding knowledge. It includes customizable metrics, automated analysis, and comprehensive tutorials to ensure consistent, scalable, and reproducible results for reliable XAI assessments in various applications.
 
 **1. Installation Instructions**
 1. Clone or download the Matlallb repository from GitHub (replace with the actual URL).
@@ -27,7 +27,7 @@ We developed MATLAB functions to create a quantitative evaluation framework for 
 
 Here are the features provided by each script:
 1. Accuracy Measurement: Calculate the classification accuracy of each model to assess its overall prediction performance on the bird species dataset.
-2. LIME-based Feature Relevance: Use LIME (Local Interpretable Model-Agnostic Explanations) to generate visual explanations for each model’s predictions, identifying the key image features influencing those decisions.
+2. LIME-based Feature Relevance: Use Local Interpretable Model-Agnostic Explanations (LIME) to generate visual explanations for each model’s predictions, identifying the key image features influencing those decisions.
 3. IoU Calculation: Compute Intersection over Union (IoU) scores to quantitatively compare the LIME-generated visual explanations with ground-truth regions of interest, ensuring that the models are focusing on relevant features.
 
 
