@@ -11,5 +11,21 @@ However, qualitative analysis of XAI visualizations, which typically involves su
 
 Our study introduces a quantitative approach to evaluating XAI models. This involves a three-step process: first, measuring the accuracy of each pretrained model to establish its prediction performance; second, assessing feature relevance using LIME to determine whether the model correctly identifies the key features influencing its decisions; and finally, using IoU scores to compare the LIME-generated explanations with the ground-truth regions of interest. By combining these findings—accuracy, LIME-based feature relevance, and IoU scores—we comprehensively evaluate the model’s overall performance and explanation quality. This methodology ensures that the models are both high-performing and transparent, essential for trust and successful deployment in real-world ecological applications.
 
-#**Purpose**
+**Purpose**
+
+We developed MATLAB functions to create a quantitative evaluation framework for Explainable AI (XAI) methods, focusing on the classification performance and interpretability of deep learning models. This framework measures model accuracy, evaluates feature relevance using LIME, and calculates IoU scores for visual explanations. Designed for ease of use, the toolbox allows researchers to assess model transparency without extensive coding knowledge. It includes customizable metrics, automated analysis, and comprehensive tutorials to ensure consistent, scalable, and reproducible results for reliable XAI assessments in various applications.
+
+**1. Installation Instructions**
+1. Clone or download the Matlallb repository from GitHub (replace with the actual URL).
+2. Open MATLAB.
+3. Add the folder to your MATLAB path 
+4  Install required dependencies by running
+5. Install_matlallb_dependencies
+6. Verify the installation by checking the version
+7  Refer to the documentation and examples in the Matlallb directory to get started.
+
+
+
+
+
 
