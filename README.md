@@ -18,11 +18,10 @@ We developed MATLAB functions to create a quantitative evaluation framework for 
 **1. Installation Instructions**
 1. Clone or download the Matlallb repository from GitHub (replace with the actual URL).
 2. Open MATLAB.
-3. Add the folder to your MATLAB path 
-4  Install required dependencies by running
-5. Install_matlallb_dependencies
-6. Verify the installation by checking the version
-7  Refer to the documentation and examples in the Matlallb directory to get started.
+3. Add the folder to your MATLAB path
+4. Install_matlallb_dependencies
+5. Verify the installation by checking the version
+6. Refer to the documentation and examples in the Matlallb directory to get started.
 
 
 
