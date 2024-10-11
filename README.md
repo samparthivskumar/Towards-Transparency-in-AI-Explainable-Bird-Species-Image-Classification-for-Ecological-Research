@@ -30,7 +30,7 @@ Here are the features provided by each script:
 2. LIME-based Feature Relevance: Use Local Interpretable Model-Agnostic Explanations (LIME) to generate visual explanations for each model’s predictions, identifying the key image features influencing those decisions.
 3. IoU Calculation: Compute Intersection over Union (IoU) scores to quantitatively compare the LIME-generated visual explanations with ground-truth regions of interest, ensuring that the models are focusing on relevant features.
 
-**Dependies**
+3. **Dependies**
 
 Dependencies for Matlallb
 1. MATLAB: Ensure you have MATLAB R2021a or later installed.
@@ -43,24 +43,24 @@ Dependencies for Matlallb
 
 5. MATLAB Coder (optional): Required if you wish to generate C/C++ code from your MATLAB code.
    
-**Instructions for Training and Evaluating a Deep Learning Model**
+4. **Instructions for Training and Evaluating a Deep Learning Model**
 
 **Step 1: Prepare Your Dataset**
 
 1. Load the Dataset:
 
-- Ensure your dataset is organized (e.g., images in folders based on their classes).
-- Load the dataset into MATLAB 
+   - Ensure your dataset is organized (e.g., images in folders based on their classes).
+   - Load the dataset into MATLAB 
 
 2. Split the Dataset:
 
-- Divide your dataset into training and validation sets
+   - Divide your dataset into training and validation sets
 
 **Step 2: Define the Deep Learning Model**
 1. Choose a Pretrained Model:
 
-- Select a suitable pretrained model from the available options (e.g., ResNet, EfficientNet).
-- Load the model, modifying the final layers for your classification task
+   - Select a suitable pretrained model from the available options (e.g., ResNet, EfficientNet).
+   - Load the model, modifying the final layers for your classification task
 2.  Set Training Options:
 
-- Define training options (e.g., learning rate, batch size)
+   - Define training options (e.g., learning rate, batch size)
