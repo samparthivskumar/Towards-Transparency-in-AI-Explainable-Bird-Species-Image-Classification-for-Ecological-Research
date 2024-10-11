@@ -78,8 +78,14 @@ Dependencies for Matlallb
 2. Calculate Accuracy:
 
 - Compare the predicted labels to the actual labels from the validation set. Calculate the accuracy by determining the percentage of correct predictions relative to the total number of predictions made.
+
   
-**Step 4: Evaluate Feature Relevance Using LIME**
+**Step 4: Save the Model**
+
+1. Save the Trained Model:
+- After training and evaluation, save the trained model for future use. This allows you to reuse the model without needing to retrain it.
+  
+**Step 5: Evaluate Feature Relevance Using LIME**
 
 1. Load the trained model:
    
@@ -87,15 +93,15 @@ Dependencies for Matlallb
   
 2.  Use LIME function to visualize important features:
 
-- Use the LIME function to visualize and highlight the most important features influencing the models predictions. This will provide insights into which features of the image the model relied on to make its prediction.
+- Use the LIME function to visualize and highlight the most salient features influencing the models predictions. This will provide insights into which features of the image the model relied on to make its prediction.
   
 
 3. Visualize LIME Explanation:
 
-- Highlight the key features of the generated image.
-- convert it to a binary format. 
+- Highlight the salient image features of the generated image.
+- Convert the image into a binary image. 
   
-**Step 5: Calculate IoU Score**
+**Step 6: Calculate IoU Score**
 
 1. Define Ground Truth Regions:
 
@@ -105,10 +111,7 @@ Dependencies for Matlallb
 
 - Use the predicted mask generated from the LIME explanation and compare it to the ground truth mask. The IoU score is calculated as the area of intersection between the predicted mask and the ground truth mask divided by the area of their union. This metric helps assess how accurately the model's explanation aligns with the actual important features in the image.
   
-**Step 6: Save the Model (Optional)**
 
-1. Save the Trained Model:
-- After training and evaluation, save the trained model for future use. This allows you to reuse the model without needing to retrain it.
 
 **Authors**
 1. Hari Kishan Kondaveeti, Ph.D
