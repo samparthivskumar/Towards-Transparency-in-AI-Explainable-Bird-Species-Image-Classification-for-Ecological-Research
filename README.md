@@ -110,4 +110,4 @@ Dependencies for Matlallb
 
 **Authors**
 1. Hari Kishan Kondaveeti, Ph.D
-2. Samparthi V S Kumar (Ph.D)
+2. Samparthi V S Kumar, (Ph.D)
