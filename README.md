@@ -1,4 +1,4 @@
-# Evaluating XAI model performance with IoU metric
+# Towards Transparency in AI: Explainable Bird Species Image Classification for Ecological Research
 **Description**
 
 Explainable Artificial Intelligence (XAI) is a growing field that aims to make AI models easier to understand and more transparent. This is especially important in areas like agriculture, healthcare, and environmental science, where AI decisions can have serious consequences for safety, ethics, and people's well-being. XAI helps by explaining how complex models, such as deep neural networks, make their predictions. This builds trust between users and AI systems, making it easier for people to rely on these technologies.
