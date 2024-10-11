@@ -62,5 +62,4 @@ Dependencies for Matlallb
    - Select a suitable pretrained model from the available options (e.g., ResNet, EfficientNet).
    - Load the model, modifying the final layers for your classification task
 2.  Set Training Options:
-
-   - Define training options (e.g., learning rate, batch size)
+     - Define training options (e.g., learning rate, batch size)
