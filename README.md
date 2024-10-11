@@ -93,12 +93,12 @@ Dependencies for Matlallb
   
 2.  Use LIME function to visualize important features:
 
-- Use the LIME function to visualize and highlight the most salient features influencing the models predictions. This will provide insights into which features of the image the model relied on to make its prediction.
+- Use the LIME function to visualize and highlight the most important features influencing the models predictions. This will provide insights into which features of the image the model relied on to make its prediction.
   
 
 3. Visualize LIME Explanation:
 
-- Highlight the salient image features of the generated image.
+- Highlight the important image features of the generated image.
 - Convert the image into a binary image. 
   
 **Step 6: Calculate IoU Score**
