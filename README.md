@@ -1,5 +1,5 @@
 # XAI-visualization-using-IoU-metric
-#**Description**
+**Description**
 
 Explainable Artificial Intelligence (XAI) is an evolving field focused on making AI models more interpretable and transparent. This is particularly significant in domains like agriculture, healthcare, and environmental science, where the outcomes of AI-driven decisions can directly impact critical aspects like safety, ethics, and human well-being. By providing insight into how complex models, especially deep neural networks, arrive at their predictions, XAI fosters a deeper level of trust between users and AI systems.
 
@@ -23,7 +23,11 @@ We developed MATLAB functions to create a quantitative evaluation framework for 
 5. Verify the installation by checking the version
 6. Refer to the documentation and examples in the Matlallb directory to get started.
 
-
+**2.Features**
+Here are the features provided by each script:
+1. Accuracy Measurement – Calculate the classification accuracy of each model to assess its overall prediction performance on the bird species dataset.
+2. LIME-based Feature Relevance – Use LIME (Local Interpretable Model-Agnostic Explanations) to generate visual explanations for each model’s predictions, identifying the key image features influencing those decisions.
+3. IoU Calculation – Compute Intersection over Union (IoU) scores to quantitatively compare the LIME-generated visual explanations with ground-truth regions of interest, ensuring that the models are focusing on relevant features.
 
 
 
