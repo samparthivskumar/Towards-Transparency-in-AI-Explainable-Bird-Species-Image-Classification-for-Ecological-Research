@@ -2,7 +2,7 @@
 image_names_A = {'A1GT.jpg', 'A2GT.jpg'};
 
 % List of image names in the model extracted features folder
-image_names_B = {'BW_SqueezeNet_A1_F16.jpg','BW_SqueezeNet_A2_F16.jpg'};
+image_names_B = {'BW_EfficientNetB0_A1_F16.jpg','BW_EfficientNetB0_A2_F16.jpg'};
 
 % Initialize total IoU value for accumulation
 total_iou = 0;
