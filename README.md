@@ -107,3 +107,7 @@ Dependencies for Matlallb
 
 1. Save the Trained Model:
 - After training and evaluation, save the trained model for future use. This allows you to reuse the model without needing to retrain it.
+
+**Authors**
+1. Hari Kishan Kondaveeti, Ph.D
+2. Samparthi V S Kumar (Ph.D)
