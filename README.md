@@ -47,10 +47,20 @@ Dependencies for Matlallb
 
 **Step 1: Prepare Your Dataset**
 
-1.Load the Dataset:
+1. Load the Dataset:
 
 - Ensure your dataset is organized (e.g., images in folders based on their classes).
 - Load the dataset into MATLAB 
 
+2. Split the Dataset:
 
+- Divide your dataset into training and validation sets
 
+**Step 2: Define the Deep Learning Model**
+1. Choose a Pretrained Model:
+
+- Select a suitable pretrained model from the available options (e.g., ResNet, EfficientNet).
+- Load the model, modifying the final layers for your classification task
+2.  Set Training Options:
+
+- Define training options (e.g., learning rate, batch size)
