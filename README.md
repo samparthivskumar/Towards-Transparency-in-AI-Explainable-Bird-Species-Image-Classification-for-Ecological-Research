@@ -1,4 +1,4 @@
-# Assesing model performance with IoU in XAI
+# Evaluating XAI model performance with IoU metric
 **Description**
 
 Explainable Artificial Intelligence (XAI) is an evolving field focused on making AI models more interpretable and transparent. This is particularly significant in domains like agriculture, healthcare, and environmental science, where the outcomes of AI-driven decisions can directly impact critical aspects like safety, ethics, and human well-being. By providing insight into how complex models, especially deep neural networks, arrive at their predictions, XAI fosters a deeper level of trust between users and AI systems.
