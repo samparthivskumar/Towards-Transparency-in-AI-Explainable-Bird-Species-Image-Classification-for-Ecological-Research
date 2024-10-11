@@ -1,4 +1,6 @@
 # Towards Transparency in AI: Explainable Bird Species Image Classification for Ecological Research
+![Heatmaps](https://github.com/user-attachments/assets/1a2d0a54-42f0-4957-9668-8fcf58459fc3)
+
 **Description**
 
 Explainable Artificial Intelligence (XAI) is a growing field that aims to make AI models easier to understand and more transparent. This is especially important in areas like agriculture, healthcare, and environmental science, where AI decisions can have serious consequences for safety, ethics, and people's well-being. XAI helps by explaining how complex models, such as deep neural networks, make their predictions. This builds trust between users and AI systems, making it easier for people to rely on these technologies.
@@ -111,6 +113,7 @@ Dependencies for Matlallb
 
 - Use the predicted mask generated from the LIME explanation and compare it to the ground truth mask. The IoU score is calculated as the area of intersection between the predicted mask and the ground truth mask divided by the area of their union. This metric helps assess how accurately the model's explanation aligns with the actual important features in the image.
   
+![IOU](https://github.com/user-attachments/assets/cc9aaa88-c42f-44ad-8d0c-13dfbfd91109)
 
 
 **Authors**
