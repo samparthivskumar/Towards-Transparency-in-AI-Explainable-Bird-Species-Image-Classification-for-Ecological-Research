@@ -2,7 +2,7 @@
 net = Trained_Network;
 
 % Read the input image from the specified file path
-X = imread("C:\Users\VIT-AP\Samparthi V S Kumar\Explainable AI\New folder\P\P2.jpg");
+X = imread("C:\Users\P2.jpg");
 
 % Resize the image to match the input size of the network's first layer
 inputSize = net.Layers(1).InputSize(1:2);
@@ -22,7 +22,7 @@ disp(['class name:', char(label)]);  % Display the predicted class name
 numTopFeatures_values = [6, 8, 10, 12];
 
 % Specify the folder path to save the generated figures
-savePath = 'C:\Users\VIT-AP\Samparthi V S Kumar\Explainable AI\New folder\Trails\BW\';
+savePath = 'C:\Users\BW\';
 
 % Loop through each value of 'numTopFeatures'
 for i = 1:length(numTopFeatures_values)
