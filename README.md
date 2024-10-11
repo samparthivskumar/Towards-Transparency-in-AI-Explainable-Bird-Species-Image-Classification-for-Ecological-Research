@@ -58,7 +58,7 @@ Dependencies for Matlallb
 
 - Select a pretrained model suitable for your classification task, such as EfficientNet, ResNet, or Inception. These models have been trained on large datasets and can be fine-tuned for specific tasks.
   
-3. Modify the Model:
+2. Update the layers of the Model:
 
 - Adjust the final layers of the pretrained model to fit the number of classes in your dataset. This typically involves replacing the last fully connected layer with a new layer that matches the number of classes in your training set, followed by a classification layer.
   
@@ -81,17 +81,19 @@ Dependencies for Matlallb
   
 **Step 4: Evaluate Feature Relevance Using LIME**
 
-1. Install and Load LIME Library:
-
-- Make sure that the LIME library is set up and accessible in your MATLAB environment. This library is used for generating interpretable explanations of model predictions.
+1. Load the trained model:
+   
+- select the saved model
   
-2. Generate LIME Explanations:
+2.  Use LIME function to visualize important features:
 
-- Select a specific image from the validation set to analyze. Use LIME to generate an explanation for the model's prediction on this image. This will provide insights into which features of the image the model relied on to make its prediction.
+- Use the LIME function to visualize and highlight the most important features influencing the models predictions. This will provide insights into which features of the image the model relied on to make its prediction.
   
+
 3. Visualize LIME Explanation:
 
-- Create a visualization of the LIME explanation, overlaying the important features identified by LIME onto the original image. This helps in understanding how the model interprets the input data.
+- Highlight the key features of the generated image.
+- convert it to a binary format. 
   
 **Step 5: Calculate IoU Score**
 
