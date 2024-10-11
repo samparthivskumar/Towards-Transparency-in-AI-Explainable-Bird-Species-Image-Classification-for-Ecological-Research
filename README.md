@@ -23,14 +23,14 @@ We developed MATLAB functions to create a quantitative evaluation framework for 
 5. Verify the installation by checking the version
 6. Refer to the documentation and examples in the Matlallb directory to get started.
 
-**2.Features**
+**2. Features**
 
 Here are the features provided by each script:
 1. Accuracy Measurement: Calculate the classification accuracy of each model to assess its overall prediction performance on the bird species dataset.
 2. LIME-based Feature Relevance: Use Local Interpretable Model-Agnostic Explanations (LIME) to generate visual explanations for each model’s predictions, identifying the key image features influencing those decisions.
 3. IoU Calculation: Compute Intersection over Union (IoU) scores to quantitatively compare the LIME-generated visual explanations with ground-truth regions of interest, ensuring that the models are focusing on relevant features.
 
-3. **Dependies**
+**3. Dependies**
 
 Dependencies for Matlallb
 1. MATLAB: Ensure you have MATLAB R2021a or later installed.
@@ -43,7 +43,7 @@ Dependencies for Matlallb
 
 5. MATLAB Coder (optional): Required if you wish to generate C/C++ code from your MATLAB code.
    
-4. **Instructions for Training and Evaluating a Deep Learning Model**
+**4. Instructions for Training and Evaluating a Deep Learning Model**
 
 **Step 1: Prepare Your Dataset**
 1. Load the Dataset:
@@ -52,6 +52,7 @@ Dependencies for Matlallb
 2. Split the Dataset:
 
 - Divide the dataset into training and validation sets. A common approach is to use 80% of the data for training and 20% for validation. Randomly shuffle the dataset to ensure a good mix of classes in both sets.
+  
 **Step 2: Define and Train the Deep Learning Model**
 1. Choose a Pretrained Model:
 
