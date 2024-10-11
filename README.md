@@ -30,6 +30,19 @@ Here are the features provided by each script:
 2. LIME-based Feature Relevance: Use Local Interpretable Model-Agnostic Explanations (LIME) to generate visual explanations for each model’s predictions, identifying the key image features influencing those decisions.
 3. IoU Calculation: Compute Intersection over Union (IoU) scores to quantitatively compare the LIME-generated visual explanations with ground-truth regions of interest, ensuring that the models are focusing on relevant features.
 
+**Dependies**
+
+Dependencies for Matlallb
+1. MATLAB: Ensure you have MATLAB R2021a or later installed.
+
+2. Deep Learning Toolbox: Required for working with neural networks and deep learning models.
+
+3. Computer Vision Toolbox (optional): This toolbox is useful for image processing tasks, but it is not strictly necessary if you are only using basic functionalities.
+
+4. Parallel Computing Toolbox (optional): If you intend to run computations in parallel for improved performance.
+
+5. MATLAB Coder (optional): Required if you wish to generate C/C++ code from your MATLAB code.
+
 
 
 
